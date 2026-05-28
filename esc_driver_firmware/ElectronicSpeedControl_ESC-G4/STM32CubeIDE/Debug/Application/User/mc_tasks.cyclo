@@ -1,0 +1,12 @@
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:78:13:MCboot	2
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:243:13:TSK_SetChargeBootCapDelayM1	1
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:254:13:TSK_ChargeBootCapDelayHasElapsedM1	1
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:270:13:TSK_SetStopPermanencyTimeM1	1
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:281:13:TSK_StopPermanencyTimeHasElapsedM1	1
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:307:16:TSK_HighFrequencyTask	2
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:362:13:TSK_SafetyTask_PWMOFF	3
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:339:13:TSK_SafetyTask	2
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:156:13:MC_RunMotorControlTasks	7
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:420:13:TSK_HardwareFaultTask	1
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:433:13:UI_HandleStartStopButton_cb	2
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks.c:451:13:mc_lock_pins	1

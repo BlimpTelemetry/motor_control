@@ -1,0 +1,3 @@
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/stm32g4xx_mc_it.c:71:6:ADC1_2_IRQHandler	1
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/stm32g4xx_mc_it.c:95:6:TIM1_UP_TIM16_IRQHandler	1
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/stm32g4xx_mc_it.c:109:6:TIM1_BRK_TIM15_IRQHandler	3

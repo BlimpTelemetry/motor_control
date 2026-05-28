@@ -1,0 +1,7 @@
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks_foc.c:509:13:FOC_Clear	1
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks_foc.c:117:13:FOC_Init	1
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks_foc.c:187:6:TSK_MF_StopProcessing	1
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks_foc.c:543:13:FOC_InitAdditionalMethods	1
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks_foc.c:566:13:FOC_CalcCurrRef	2
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks_foc.c:206:13:TSK_MediumFrequencyTaskM1	30
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mc_tasks_foc.c:621:16:FOC_HighFrequencyTask	10

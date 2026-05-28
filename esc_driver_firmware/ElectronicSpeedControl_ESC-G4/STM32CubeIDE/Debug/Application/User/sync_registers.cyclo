@@ -1,0 +1,5 @@
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/sync_registers.c:33:9:RI_SetRegisterGlobal	17
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/sync_registers.c:167:9:RI_SetRegisterMotor1	89
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/sync_registers.c:610:9:RI_GetRegisterGlobal	20
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/sync_registers.c:755:11:RI_GetRegisterMotor1	104
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/sync_registers.c:1342:9:RI_MovString	4

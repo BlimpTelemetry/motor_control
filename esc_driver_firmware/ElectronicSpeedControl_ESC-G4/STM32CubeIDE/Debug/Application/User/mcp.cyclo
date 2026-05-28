@@ -1,0 +1,4 @@
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mcp.c:58:9:RI_SetRegCommandParser	10
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mcp.c:161:9:RI_GetRegCommandParser	5
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mcp.c:227:6:MCP_ReceivedPacket	19
+C:/Users/Ady/Documents/HEIG-VD/cours/b6/iot/projet/motor_control/esc_driver_firmware/ElectronicSpeedControl_ESC-G4/Src/mcp.c:407:9:MCP_RegisterCallBack	2
