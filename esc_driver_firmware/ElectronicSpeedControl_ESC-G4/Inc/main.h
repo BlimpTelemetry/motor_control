@@ -96,9 +96,6 @@ void Error_Handler(void);
 #define M1_PWM_VL_GPIO_Port GPIOA
 #define M1_PWM_INPUT_Pin GPIO_PIN_15
 #define M1_PWM_INPUT_GPIO_Port GPIOA
-#define Start_Stop_Pin GPIO_PIN_10
-#define Start_Stop_GPIO_Port GPIOC
-#define Start_Stop_EXTI_IRQn EXTI15_10_IRQn
 #define UART_TX_Pin GPIO_PIN_3
 #define UART_TX_GPIO_Port GPIOB
 #define UART_RX_Pin GPIO_PIN_4

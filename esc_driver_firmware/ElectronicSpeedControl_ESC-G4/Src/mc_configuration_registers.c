@@ -42,9 +42,9 @@ const GlobalConfig_reg_t globalConfig_reg =
 
 static const ApplicationConfig_reg_t M1_ApplicationConfig_reg =
 {
-  .maxMechanicalSpeed = 4000,
+  .maxMechanicalSpeed = 12000,
   .maxReadableCurrent = M1_MAX_READABLE_CURRENT,
-  .nominalCurrent     = 1.6,
+  .nominalCurrent     = 10,
   .nominalVoltage     = 11,
   .driveType          = DRIVE_TYPE_M1,
 };
@@ -52,13 +52,13 @@ static const ApplicationConfig_reg_t M1_ApplicationConfig_reg =
 //cstat !MISRAC2012-Rule-9.2
 static const MotorConfig_reg_t M1_MotorConfig_reg =
 {
-  .polePairs  = 2,
-  .ratedFlux  = 4.0,
-  .rs         = 0.35,
-  .ls         = 0.0006*1.000,
-  .ld         = 0.0006,
-  .maxCurrent = 1.6,
-  .name = "Shinano LA052-080E3NL1"
+  .polePairs  = 7,
+  .ratedFlux  = 0.8,
+  .rs         = 0.1,
+  .ls         = 0.00002*1.000,
+  .ld         = 0.00002,
+  .maxCurrent = 10,
+  .name = "A2212 13T"
 };
 
 static const FOCFwConfig_reg_t M1_FOCConfig_reg =

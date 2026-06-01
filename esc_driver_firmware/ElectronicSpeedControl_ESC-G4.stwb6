@@ -428,47 +428,26 @@
     ],
     "motor": [
       {
-        "polePairs": 2,
-        "id": "motorShinano",
-        "label": "Shinano LA052-080E3NL1",
+        "polePairs": 7,
+        "id": "A2212-13T",
+        "label": "A2212 13T",
         "hardwareFamily": "MOTOR",
-        "description": "Inner rotor type - 2 poles pairs - brushless DC motor with encoder",
+        "description": "A2212 1000KV Brushless Outrunner Motor 13T",
         "compatibility": [
           "FOC",
           "sixStep"
         ],
-        "nominalCurrent": 1.6,
-        "nominalDCVoltage": 24,
-        "rs": 0.35,
-        "ls": 0.6,
+        "nominalCurrent": 10,
+        "nominalDCVoltage": 11.045379638671875,
+        "rs": 0.10000000149011612,
+        "ls": 0.02,
         "magneticStructure": {
           "type": "SM-PMSM"
         },
-        "BEmfConstant": 4,
-        "inertia": 5,
-        "friction": 14,
-        "maxRatedSpeed": 4000,
-        "hallSensor": {
-          "sensorsDisplacement": 120,
-          "placementElectricalAngle": 300
-        },
-        "quadratureEncoder": {
-          "pulsesPerMechanicalRevolution": 400,
-          "hasIndexPin": false
-        },
-        "motorProfiler": {
-          "ctrl_board": "NUCLEO-F302R8",
-          "pwr_board": "X-NUCLEO-IHM07M1",
-          "operating_condition": {
-            "cutoff_frequency": 6000,
-            "pwm_frequency": 20000,
-            "foc_rate": 1
-          },
-          "mechanical": {
-            "acceleration": 1000,
-            "max_speed_startup": 1600
-          }
-        }
+        "BEmfConstant": 0.8218573927879333,
+        "inertia": 0.55,
+        "friction": 0.49,
+        "maxRatedSpeed": 9864
       }
     ],
     "connections": [
@@ -1042,7 +1021,7 @@
         }
       },
       "powerSupply_0": {
-        "nominalDcBusVoltage": 11.1,
+        "nominalDcBusVoltage": 11,
         "nominalCurrent": "Number.NaN",
         "maxCurrent_pk": "Number.NaN",
         "icl": {
@@ -1053,37 +1032,9 @@
           "voltageThreshold": "Number.NaN"
         }
       },
-      "motor_0": {
-        "label": "A2212",
-        "description": "",
-        "polePairs": "Number.NaN",
-        "mmsType": "",
-        "rs": "Number.NaN",
-        "ls": "Number.NaN",
-        "mmsLd_lq_ratio": "Number.NaN",
-        "maxCurrent": "Number.NaN",
-        "maxDCVoltage": "Number.NaN",
-        "BEmfConstant": "Number.NaN",
-        "inertia": "Number.NaN",
-        "friction": "Number.NaN",
-        "maxRatedSpeed": "Number.NaN",
-        "hasHallSensor": true,
-        "hallSensor": {
-          "sensorsDisplacement": "Number.NaN",
-          "placementElectricalAngle": "Number.NaN"
-        },
-        "hasQuadratureEncoder": true,
-        "quadratureEncoder": {
-          "pulsesPerMechanicalRevolution": "Number.NaN",
-          "hasIndexPin": false
-        }
-      },
       "userInterface": {
         "startStop": {
-          "enabled": true,
-          "triggerEdge": "",
-          "pullMode": "",
-          "pin": ""
+          "enabled": false
         },
         "mcpv2": {
           "bufferSize": "Number.NaN",
@@ -1121,14 +1072,14 @@
             "P": "Number.NaN",
             "I": "Number.NaN"
           },
-          "cutOffFrequency": "Number.NaN",
+          "cutOffFrequency": 2000,
           "useMTPA": false,
           "feedForward": false,
           "MTPATarget": "Number.NaN"
         },
         "speedReg": {
           "executionRate": "Number.NaN",
-          "targetSpeed": "Number.NaN",
+          "targetSpeed": 2500,
           "commutationTime": "Number.NaN",
           "KpKi": {
             "P": {
@@ -1207,6 +1158,31 @@
         "modulationFlags": {
           "overModulation": false,
           "discontinuousPWM": false
+        }
+      },
+      "motor_0": {
+        "label": "",
+        "description": "",
+        "polePairs": "Number.NaN",
+        "mmsType": "",
+        "rs": "Number.NaN",
+        "ls": "Number.NaN",
+        "mmsLd_lq_ratio": "Number.NaN",
+        "maxCurrent": "Number.NaN",
+        "maxDCVoltage": "Number.NaN",
+        "BEmfConstant": "Number.NaN",
+        "inertia": "Number.NaN",
+        "friction": "Number.NaN",
+        "maxRatedSpeed": 12000,
+        "hasHallSensor": false,
+        "hallSensor": {
+          "sensorsDisplacement": "Number.NaN",
+          "placementElectricalAngle": "Number.NaN"
+        },
+        "hasQuadratureEncoder": false,
+        "quadratureEncoder": {
+          "pulsesPerMechanicalRevolution": "Number.NaN",
+          "hasIndexPin": false
         }
       }
     }

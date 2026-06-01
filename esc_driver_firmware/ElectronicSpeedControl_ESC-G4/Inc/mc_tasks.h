@@ -116,8 +116,6 @@ bool TSK_StopPermanencyTimeHasElapsedM2(void);
 /* */
 bool TSK_ChargeBootCapDelayHasElapsedM2(void);
 
-void UI_HandleStartStopButton_cb(void);
-
 /* Reserves FOC execution on ADC ISR half a PWM period in advance */
 void TSK_DualDriveFIFOUpdate(uint8_t Motor);
 

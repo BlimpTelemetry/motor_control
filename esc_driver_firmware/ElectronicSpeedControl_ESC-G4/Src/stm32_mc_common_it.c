@@ -29,7 +29,6 @@
 //cstat +MISRAC2012-Rule-3.1
 #include "parameters_conversion.h"
 #include "motorcontrol.h"
-#include "stm32g4xx_ll_exti.h"
 #include "stm32g4xx_hal.h"
 #include "stm32g4xx.h"
 #include "mcp_config.h"
@@ -57,7 +56,6 @@
 /* Private functions ---------------------------------------------------------*/
 /* USER CODE END PRIVATE */
 
-void EXTI15_10_IRQHandler(void);
 void HardFault_Handler(void);
 void SysTick_Handler(void);
 
@@ -204,25 +202,6 @@ static uint8_t SystickDividerCounter = SYSTICK_DIVIDER;
   /* USER CODE BEGIN SysTick_IRQn 2 */
 
   /* USER CODE END SysTick_IRQn 2 */
-}
-
-/**
-  * @brief  This function handles Button IRQ on PIN PC10.
-
-  */
-void EXTI15_10_IRQHandler(void)
-{
-  /* USER CODE BEGIN START_STOP_BTN */
-  if (0U != LL_EXTI_ReadFlag_0_31(LL_EXTI_LINE_10))
-  {
-    LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_10);
-    (void)UI_HandleStartStopButton_cb();
-  }
-  else
-  {
-    /* Nothing to do */
-  }
-
 }
 
 /* USER CODE BEGIN 1 */

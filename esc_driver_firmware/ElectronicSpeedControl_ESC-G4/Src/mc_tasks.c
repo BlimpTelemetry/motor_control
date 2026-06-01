@@ -430,21 +430,6 @@ __weak void TSK_HardwareFaultTask(void)
   /* USER CODE END TSK_HardwareFaultTask 1 */
 }
 
-__weak void UI_HandleStartStopButton_cb (void)
-{
-/* USER CODE BEGIN START_STOP_BTN */
-  if (IDLE == MC_GetSTMStateMotor1())
-  {
-    /* Ramp parameters should be tuned for the actual motor */
-    (void)MC_StartMotor1();
-  }
-  else
-  {
-    (void)MC_StopMotor1();
-  }
-/* USER CODE END START_STOP_BTN */
-}
-
  /**
   * @brief  Locks GPIO pins used for Motor Control to prevent accidental reconfiguration.
   */

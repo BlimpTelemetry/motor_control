@@ -228,9 +228,6 @@ static void MX_NVIC_Init(void)
   /* ADC1_2_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(ADC1_2_IRQn, 2, 0);
   HAL_NVIC_EnableIRQ(ADC1_2_IRQn);
-  /* EXTI15_10_IRQn interrupt configuration */
-  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 3, 0);
-  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
 }
 
 /**
@@ -929,7 +926,6 @@ static void MX_DMA_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
   /* USER CODE BEGIN MX_GPIO_Init_1 */
 
   /* USER CODE END MX_GPIO_Init_1 */
@@ -939,12 +935,6 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOF_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
-
-  /*Configure GPIO pin : Start_Stop_Pin */
-  GPIO_InitStruct.Pin = Start_Stop_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(Start_Stop_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 
