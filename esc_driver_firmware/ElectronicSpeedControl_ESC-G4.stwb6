@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 11,
   "algorithm": "FOC",
   "description": "",
   "workBenchVersion": "6.4.2",
@@ -1183,7 +1183,9 @@
         "quadratureEncoder": {
           "pulsesPerMechanicalRevolution": "Number.NaN",
           "hasIndexPin": false
-        }
+        },
+        "nominalCurrent": "Number.NaN",
+        "nominalDCVoltage": "Number.NaN"
       }
     }
   }
